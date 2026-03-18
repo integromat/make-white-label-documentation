@@ -1,0 +1,8 @@
+# Default organizations permissions
+
+All users are members of at least one organization and one team. Each user's organization and team roles determine the permissions that user has.
+
+The following table describes the permissions associated with each organizational role.
+
+<table data-full-width="true"><thead><tr><th width="392">Description</th><th width="99">Owner</th><th width="130">Admin</th><th width="115">Member</th><th width="134">Accountant</th><th>App developer</th></tr></thead><tbody><tr><td><p><strong>access all teams</strong></p><p>Can access any team with owner permissions.</p></td><td>Yes</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td><p><strong>organization app install</strong></p><p>Can install App to Organization</p></td><td>Yes</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr><tr><td><p><strong>organization delete</strong></p><p>Can delete organization.</p></td><td>Yes</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr><tr><td><p><strong>organization edit</strong></p><p>Can modify organization.</p></td><td>Yes</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr><tr><td><p><strong>organization user add and edit</strong></p><p>Can modify organization users.</p></td><td>Yes</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr><tr><td><p><strong>organization view</strong></p><p>Can read organization.</p></td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>payment edit</strong></td><td>Yes</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr><tr><td><strong>payments get</strong></td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td></tr><tr><td><p><strong>team add</strong></p><p>Can add team.</p></td><td>Yes</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr></tbody></table>
+

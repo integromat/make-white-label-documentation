@@ -17,7 +17,7 @@ The following is a list of current software versions running in Make's release e
 | PostgreSQL    | 15.12          | -              |
 | Redis         | v6.2.20        | -              |
 | MongoDB Cloud | 7.0            | -              |
-| ElasticSearch | 7.17.15        | -              |
+| ElasticSearch | 7.17.28        | Yes            |
 
 ### Message Queues
 

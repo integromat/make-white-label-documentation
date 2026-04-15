@@ -213,11 +213,3 @@ Claude Opus 4.6 is Anthropic's most advanced model, built for:
 * Large-scale data processing: 1M token context window lets you process entire codebases or document archives in a single prompt
 * Complex reasoning: Enhanced capabilities for multi-step workflows and autonomous decision-making
 * Agentic workflows: Built for tool use and course-correction in automated processes
-
-#### How to use Claude Opus 4.6 in Make
-
-Select the option that fits your workflow:
-
-* [Make AI Toolkit](https://apps.make.com/ai-tools): Use the ‘Simple text prompt’ module for quick testing with zero configuration. No API key required – select Claude Opus 4.6 from the model dropdown.
-* [Anthropic Claude](https://apps.make.com/anthropic-claude): Connect your Anthropic API key with the ‘Create a prompt’ module for structured prompts.
-* [Make AI Agents (New)](https://help.make.com/make-ai-agents-new): Build agentic workflows using your own Anthropic API key.

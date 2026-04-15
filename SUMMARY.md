@@ -2,6 +2,7 @@
 
 * [Make White Label](README.md)
 * [Release notes](release-notes/README.md)
+  * [Release 2026.02](release-notes/release-2026.02.md)
   * [Release 2026.01-Product improvements](release-notes/release-2026.01-product-improvements.md)
   * [Release 2026.01](release-notes/release-2026.01.md)
   * [Release 2025.09](release-notes/release-2025.09/README.md)

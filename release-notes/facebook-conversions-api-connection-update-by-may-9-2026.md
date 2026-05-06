@@ -6,9 +6,9 @@ Meta is updating its security requirements for Facebook Conversions API connecti
 
 ### What’s changing
 
-All connections for the **Facebook Conversions API** and **Facebook Conversions API for CRM** apps must be updated to meet Meta’s new security requirements.
+Meta’s updated security requirements affect existing connections for the **Facebook Conversions API** and **Facebook Conversions API for CRM** apps.
 
-Your existing scenarios will continue to run until **May 9, 2026**. After this date, scenarios using connections that haven’t been reauthorized might fail.
+After the update is released, these connections must be reauthorized to continue working. Your existing scenarios will continue to run until **May 9, 2026**. After this date, scenarios using connections that haven’t been reauthorized might fail.
 
 ### What you need to do
 

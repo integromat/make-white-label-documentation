@@ -81,7 +81,7 @@ We've removed the deprecated `chatgpt-4o-latest` model from the OpenAI app and a
 
 **What changed**
 
-The `chatgpt-4o-latest` model is no longer available for selection. Any scenarios that previously used this model now automatically send requests to `gpt-4o-2024-08-06`. We made this change to ensure your scenarios continue to run without interruption after OpenAI discontinued the original model.
+The `chatgpt-4o-latest` model is no longer available for selection. Any scenarios that previously used this model now automatically send requests to `gpt-4o-2024-08-06`. We made this change to make sure your scenarios continue running without interruption after OpenAI discontinued the original model.
 
 **What this mean for you**
 

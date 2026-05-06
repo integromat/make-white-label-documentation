@@ -14,6 +14,4 @@ This helps you focus on the most relevant information when reviewing scenario ru
 
 #### Hidden active scenarios card
 
-The **Active scenarios** card is now hidden when you don’t have any active scenarios.
-
-Your dashboard stays cleaner and shows only relevant information based on your current setup.
+The **Active scenarios** card is now hidden when you don’t have any active scenarios. Your dashboard stays cleaner and shows only relevant information based on your current setup.

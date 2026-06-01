@@ -2,6 +2,7 @@
 
 * [Make White Label](README.md)
 * [Release notes](release-notes/README.md)
+  * [Anthropic Claude model deprecations on June 15, 2026](release-notes/anthropic-claude-model-deprecations-on-june-15-2026.md)
   * [Facebook Conversions API connection update by May 9, 2026](release-notes/facebook-conversions-api-connection-update-by-may-9-2026.md)
   * [Release 2026.02](release-notes/release-2026.02.md)
   * [Release 2026.01-Product improvements](release-notes/release-2026.01-product-improvements.md)

@@ -1,6 +1,6 @@
 # Anthropic Claude model deprecations on June 15, 2026
 
-Anthropic has deprecated two Claude models. You can no longer use these models in your Make scenarios after **June 15, 2026**.
+Anthropic is deprecating two Claude models on **June 15, 2026**. After that date, scenarios using these models will fail.
 
 #### What's changing? <a href="#uexix" id="uexix"></a>
 

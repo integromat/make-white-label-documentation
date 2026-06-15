@@ -110,10 +110,10 @@ OpenAI has deprecated the `gpt-4o-audio-preview`  and `gpt-4o-mini-audio-preview
 
 Review your OpenAI modules and replace any deprecated audio preview models with a supported model.
 
-| Deprecated model            | Replacement mod  |
-| --------------------------- | ---------------- |
-| `gpt-4o-audio-preview`      | `gpt-audio-1.5`  |
-| `gpt-4o-mini-audio-preview` | `gpt-audio-mini` |
+| Deprecated model            | Replacement model |
+| --------------------------- | ----------------- |
+| `gpt-4o-audio-preview`      | `gpt-audio-1.5`   |
+| `gpt-4o-mini-audio-preview` | `gpt-audio-mini`  |
 
 {% hint style="info" %}
 Review OpenAI's pricing information for these new models, as your costs may change depending on your usage.
@@ -130,7 +130,7 @@ After June 15, 2026, all requests using these models will return an error. Exist
 
 Review your Anthropic Claude modules and replace any deprecated models with a supported model.
 
-| Deprecated model | Replacement mod   |
+| Deprecated model | Replacement model |
 | ---------------- | ----------------- |
 | Claude Sonnet 4  | Claude Sonnet 4.6 |
 | Claude Opus 4    | Claude Opus 4.6   |

@@ -36,7 +36,7 @@ The following is a list of current software versions running in Make's release e
 
 ### Current service version numbers
 
-The following are the current version numbers for services. You can verify them in your instance by going to **Administration** > **Monitoring**.
+The following are the current version numbers for services. You can verify them in your instance by going to **Administration** > **Monitoring**.&#x20;
 
 | Service                | Version                                  | Version update |
 | ---------------------- | ---------------------------------------- | -------------- |

@@ -4,49 +4,83 @@ hidden: true
 
 # Release 2026.04
 
-## Current software version numbers
+This release note lists the current software and service versions for White Label instances of Make, plus app updates and deprecations since the previous release.
 
-The following is a list of current software versions running in Make's release environment. You can also find announcements of planned updates and upcoming end-of-life support for specific versions here.
+### Current software version numbers
 
-### Containerization
+The following is a list of current software versions running in Make's release environment.&#x20;
+
+#### Containerization
 
 | Software   | Version number | Version update |
 | ---------- | -------------- | -------------- |
-| Kubernetes | 1.35           | Yes            |
+| Kubernetes | 1.35           | -              |
 
-### Databases
+#### Databases
 
 | Software      | Version number | Version update |
 | ------------- | -------------- | -------------- |
-| PostgreSQL    | 15.17          | Yes            |
+| PostgreSQL    | 15.17          | -              |
 | Redis         | v6.2.20        | -              |
 | MongoDB Cloud | 7.0            | -              |
 | ElasticSearch | 8.19.13        | -              |
 
-### Message Queues
+#### Message Queues
 
 | Software | Version number | Version update |
 | -------- | -------------- | -------------- |
 | RabbitMQ | 3.13.7.1       | -              |
-| Erlang   | 26.2.5.11      | -              |
+| Erlang   | 26.2.5.19      | Yes            |
 
-### Filesystem
+#### Filesystem
 
 | Software | Version number | Version update |
 | -------- | -------------- | -------------- |
 | NFS      | 4.1            | -              |
 
-<details>
+### Current service version numbers
 
-<summary><strong>Current service version numbers</strong></summary>
+The following are the current version numbers for services. You can verify them in your instance by going to **Administration** > **Monitoring**.
 
-The following are the current version numbers for services. You can verify them in your instance by going to **Administration > Monitoring**.
+| Service                | Version                                  | Version update |
+| ---------------------- | ---------------------------------------- | -------------- |
+| accman                 | 7b20c1bd59567ff2235f2c3e93297f40f4c23513 | Yes            |
+| agency                 | 4.0-beta                                 | -              |
+| aws-rds-log-reader     | v1.1.1                                   | -              |
+| broker                 | c8d549a7031e806d71aa92cdf355867e63b2c0db | Yes            |
+| broker-gw-logger       | c8d549a7031e806d71aa92cdf355867e63b2c0db | Yes            |
+| cron                   | v1.1.6                                   | Yes            |
+| datadog-agent          | 7.75.0                                   | -              |
+| datadog-cluster-agent  | 7.75.0                                   | -              |
+| db-updater             | 4d4b9a5b8cbbdfb1d8cb2839b8b326db66b29ace | Yes            |
+| emails-processor       | 0e857892bab26eee2014f3b347983f3158cadcc7 | Yes            |
+| engine                 | f528c3a-20260710                         | Yes            |
+| execution-controller   | 1c8c7b95d5e4db64bd83058fe00c26f0ff978ee0 | Yes            |
+| gateway                | bda14efa4c77988205c257fb25c932ff9085d609 | Yes            |
+| imt-auditman           | 76f6d5091d96734bef016bc499b7e880c1f2cbc7 | Yes            |
+| ipm-server             | 3.64.2                                   | Yes            |
+| ipm-service            | 5ebc24ca9d8b0963ee896121bf65ee139c4acc54 | Yes            |
+| kibana                 | 8.19.13                                  | -              |
+| lickman                | 0bd3fd6d0c92bdf18fcad5b60a6ed89c504d74ab | Yes            |
+| make-apps-processor    | 1.9.0                                    | Yes            |
+| mongo-auto-indexer     | master                                   | -              |
+| nginx                  | v1.28.0                                  | -              |
+| notification-processor | ba23dcc670c5cad78dddea9e4df629f74de11e46 | Yes            |
+| overseer               | 2f1113b6fe7c44e72b8c8e05a473173e89c3ab9e | -              |
+| renderer-processor     | 1f7e97d6321fbfa4dfb36196b3bba382fdd2ea22 | Yes            |
+| roleman                | dc610974199623bb68a4d42bd5f9044b005c8397 | Yes            |
+| s3proxy                | 3.1.0                                    | -              |
+| scheduler              | f528c3a-20260710                         | Yes            |
+| trackman               | 2.27.0                                   | Yes            |
+| trigger                | 77debb45349e64732ce3680bf4304bc0d247ea33 | Yes            |
+| web-api                | e4074328349b802ccff4090c116be91f0c44d280 | Yes            |
+| web-streamer           | 70aba298eef467c67549ad7b9313ce7d231de5e7 | Yes            |
+| web-zone               | 4b5fb44a3f34bbbee94c7c5de93d92845471d219 | Yes            |
+| zone-assets-server     | 4b5fb44a3f34bbbee94c7c5de93d92845471d219 | Yes            |
 
-<table><thead><tr><th width="195.2716064453125">Service</th><th width="361.3212890625">Version</th><th>Version update</th></tr></thead><tbody><tr><td><code>accman</code></td><td>c7574116b1803a674727a1776e91643f9d95b057</td><td>-</td></tr><tr><td><code>agency</code></td><td>4.0-beta</td><td>-</td></tr><tr><td><code>aws-rds-log-reader</code></td><td>v1.1.1</td><td>-</td></tr><tr><td><code>broker</code></td><td>02e3643398291ece611cac519419c1f1f8a72958</td><td>Yes</td></tr><tr><td><code>broker-gw-logger</code></td><td>6e9a6541951b7627a96327b878322e25ae534e6a</td><td>-</td></tr><tr><td><code>cron</code></td><td>v1.1.4</td><td>Yes</td></tr><tr><td><code>datadog-agent</code></td><td>7.75.0</td><td>-</td></tr><tr><td><code>datadog-cluster-agent</code></td><td>7.75.0</td><td>-</td></tr><tr><td><code>db-updater</code></td><td>7a872ca5e928cea6875296350e06a9e8737d518c</td><td>Yes</td></tr><tr><td><code>emails-processor</code></td><td>b1e8a78dca74de7cf43ba83fdc2ccef3d23ea5d3</td><td>-</td></tr><tr><td><code>engine</code></td><td>55e3b27-20260529</td><td>Yes</td></tr><tr><td><code>execution-controller</code></td><td>59ec8aed7f867e409badc4a160b026af41ef2e1f</td><td>Yes</td></tr><tr><td><code>gateway</code></td><td>84bed5ea52d5feab52657423a4882c3d724c898a</td><td>Yes</td></tr><tr><td><code>imt-auditman</code></td><td>1.25.1</td><td>Yes</td></tr><tr><td><code>ipm-server</code></td><td>3.61.0</td><td>Yes</td></tr><tr><td><code>ipm-service</code></td><td>2.4.2</td><td>Yes</td></tr><tr><td><code>kibana</code></td><td>8.19.13</td><td>Yes</td></tr><tr><td><code>lickman</code></td><td>ae63665271818a32d892623714966df13da7bf0d</td><td>Yes</td></tr><tr><td><code>make-apps-processor</code></td><td>1.7.0</td><td>Yes</td></tr><tr><td><code>mongo-auto-indexer</code></td><td>master</td><td>-</td></tr><tr><td><code>nginx</code></td><td>v1.28.0</td><td>-</td></tr><tr><td><code>notifications-processor</code></td><td>7975c23b4675d437c8ffb90c2bb30ffb7ae27bae</td><td>Yes</td></tr><tr><td><code>overseer</code></td><td>2f1113b6fe7c44e72b8c8e05a473173e89c3ab9e</td><td>-</td></tr><tr><td><code>renderer-processor</code></td><td>59f44e25e7a394247000bcb1c76be89a2feaf15a</td><td>Yes</td></tr><tr><td><code>roleman</code></td><td>f3f259d8e036bd0d05f37e68699572c932032bd3</td><td>Yes</td></tr><tr><td><code>s3proxy</code></td><td>3.1.0</td><td>Yes</td></tr><tr><td><code>scheduler</code></td><td>55e3b27-20260529</td><td>Yes</td></tr><tr><td><code>trackman</code></td><td>2.26.1</td><td>-</td></tr><tr><td><code>trigger</code></td><td>fc351241929dd1774a7cba09bbdd953bc1e30180</td><td>Yes</td></tr><tr><td><code>web-api</code></td><td>de3fda3f1ba64eb2c14f96205a5febdb929917ef</td><td>Yes</td></tr><tr><td><code>web-streamer</code></td><td>709887c160a7c9326fd9846b788c33e674935d0e</td><td>Yes</td></tr><tr><td><code>web-zone</code></td><td>12d22018d4d7193f33f21a915c4337b1378592a0</td><td>Yes</td></tr><tr><td><code>zone-assets-server</code></td><td>12d22018d4d7193f33f21a915c4337b1378592a0</td><td>Yes</td></tr></tbody></table>
+### Public-facing changes
 
-</details>
-
-## Public-facing changes
+This section includes app updates and deprecations since the previous release.
 
 #### Google Chrome app and browser extension deprecation on August 31, 2026
 

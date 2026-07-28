@@ -49,7 +49,7 @@ The following are the current version numbers for services. You can verify them 
 | datadog-agent          | 7.75.0                                   | -              |
 | datadog-cluster-agent  | 7.75.0                                   | -              |
 | db-updater             | 4d4b9a5b8cbbdfb1d8cb2839b8b326db66b29ace | Yes            |
-| emails-processor       | 0e857892bab26eee2014f3b347983f3158cadcc7 | Yes            |
+| emails-processor       | b1e8a78dca74de7cf43ba83fdc2ccef3d23ea5d3 | -              |
 | engine                 | f528c3a-20260710                         | Yes            |
 | execution-controller   | 1c8c7b95d5e4db64bd83058fe00c26f0ff978ee0 | Yes            |
 | gateway                | bda14efa4c77988205c257fb25c932ff9085d609 | Yes            |

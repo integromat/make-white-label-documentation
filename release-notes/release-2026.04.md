@@ -52,7 +52,7 @@ The following are the current version numbers for services. You can verify them 
 | emails-processor       | b1e8a78dca74de7cf43ba83fdc2ccef3d23ea5d3 | -              |
 | engine                 | f528c3a-20260710                         | Yes            |
 | execution-controller   | 1c8c7b95d5e4db64bd83058fe00c26f0ff978ee0 | Yes            |
-| gateway                | bda14efa4c77988205c257fb25c932ff9085d609 | Yes            |
+| gateway                | 7190c63df2030f4c4be56577f2e4a7666c225b07 | Yes            |
 | imt-auditman           | 76f6d5091d96734bef016bc499b7e880c1f2cbc7 | Yes            |
 | ipm-server             | 3.64.2                                   | Yes            |
 | ipm-service            | 5ebc24ca9d8b0963ee896121bf65ee139c4acc54 | Yes            |

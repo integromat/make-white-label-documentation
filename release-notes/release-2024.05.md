@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Release 2024.05
 
 ## Current software version numbers

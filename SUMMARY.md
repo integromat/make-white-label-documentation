@@ -2,6 +2,7 @@
 
 * [Make White Label](README.md)
 * [Release notes](release-notes/README.md)
+  * [Release 2026.05](release-notes/release-2026.05.md)
   * [Release 2026.04](release-notes/release-2026.04.md)
   * [Release 2026.03](release-notes/release-2026.03.md)
   * [Anthropic Claude model deprecations on June 15, 2026](release-notes/anthropic-claude-model-deprecations-on-june-15-2026.md)

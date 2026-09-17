@@ -49,7 +49,7 @@ The following are the current version numbers for services. You can verify them 
 | datadog-agent          | 7.75.0                                   | -              |
 | datadog-cluster-agent  | 7.75.0                                   | -              |
 | db-updater             | 47d15ffb2b1174354ea3106f3d3abdd5c7d2c2cf | Yes            |
-| emails-processor       | -                                        | -              |
+| emails-processor       | 6ebff678bbf342057f04c3b9b4293b9b6ac90c31 | Yes            |
 | engine                 | de61b0a-20260911                         | Yes            |
 | execution-controller   | 68226f10fa0a2cbeba6158ff8c0864e668edfd04 | Yes            |
 | gateway                | 9551474c991853af6d3669710a2a61d8ee32a4cd | Yes            |
@@ -113,29 +113,6 @@ To keep your scenarios running, you must update your Aircall scenarios before Se
 
 ### Amazon Seller Central
 
-* New Watch orders, Search orders, and Get an order modules replace the deprecated Orders v0 modules.
-* Deprecated modules move to the "Other" group and stop working March 27, 2027.
-* No direct replacement for List order lines; order items now included in Get an order / Search orders output.
-
-***
-
-### Anthropic Claude (Claude)
-
-* Claude Fable 5.1 is now available (Make AI Agent (New), Make AI Toolkit, MCP Client, Anthropic Claude apps), with up to a 1M-token context window and up to 128,000 output tokens.
-* Opus 5, Opus 4.8, Opus 4.7, Opus 4.6, Opus 4.5, and Fable 5 are temporarily disabled due to a model provider update; affected scenarios fail until restored.
-
-For more information, see [Anthropic (Claude) documentation](https://apps.make.com/anthropic-claude).
-
-***
-
-### AWS Bedrock (Amazon Bedrock)
-
-The Simple Text Prompt and Create a Message modules now support Anthropic's Claude Fable 5.1 model.
-
-***
-
-### Amazon Seller Central
-
 Due to upcoming changes in the Amazon Seller Central API, we have updated our Amazon Seller Central app with new modules for managing orders. The old modules, based on the Orders v0 API, will be retired on March 27, 2027.
 
 #### What's changing? <a href="#whats-changing" id="whats-changing"></a>
@@ -163,6 +140,21 @@ To keep your scenarios running, you must replace the deprecated modules with the
 
 * [Amazon Seller Central documentation — Help Center](https://apps.make.com/amazon-seller-central)
 * [Amazon SP-API Deprecations Documentation](https://developer-docs.amazon.com/sp-api/docs/sp-api-deprecations)
+
+***
+
+### Anthropic Claude (Claude)
+
+* Claude Fable 5.1 is now available (Make AI Agent (New), Make AI Toolkit, MCP Client, Anthropic Claude apps), with up to a 1M-token context window and up to 128,000 output tokens.
+* Opus 5, Opus 4.8, Opus 4.7, Opus 4.6, Opus 4.5, and Fable 5 are temporarily disabled due to a model provider update; affected scenarios fail until restored.
+
+For more information, see [Anthropic (Claude) documentation](https://apps.make.com/anthropic-claude).
+
+***
+
+### AWS Bedrock (Amazon Bedrock)
+
+The Simple Text Prompt and Create a Message modules now support Anthropic's Claude Fable 5.1 model.
 
 ***
 

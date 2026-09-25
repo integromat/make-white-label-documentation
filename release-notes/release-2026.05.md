@@ -49,11 +49,11 @@ The following are the current version numbers for services. You can verify them 
 | datadog-agent          | 7.75.0                                   | -              |
 | datadog-cluster-agent  | 7.75.0                                   | -              |
 | db-updater             | 47d15ffb2b1174354ea3106f3d3abdd5c7d2c2cf | Yes            |
-| emails-processor       | 6ebff678bbf342057f04c3b9b4293b9b6ac90c31 | Yes            |
+| emails-processor       | b1e8a78dca74de7cf43ba83fdc2ccef3d23ea5d3 | -              |
 | engine                 | de61b0a-20260911                         | Yes            |
 | execution-controller   | 68226f10fa0a2cbeba6158ff8c0864e668edfd04 | Yes            |
 | gateway                | 9551474c991853af6d3669710a2a61d8ee32a4cd | Yes            |
-| imt-auditman           | f36409b1a2bb8a4258102db338b794f80234a5e2 | Yes            |
+| imt-auditman           | 99be5118c84ada0b7b9dde6e054cfd4b0db9ee54 | Yes            |
 | ipm-server             | 3.71.1                                   | Yes            |
 | ipm-service            | 7d7dff9d425509b34e6e1f22ccee00729c350442 | Yes            |
 | kibana                 | 8.19.13                                  | -              |

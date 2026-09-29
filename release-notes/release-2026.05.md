@@ -80,7 +80,7 @@ This section includes updates, fixes, and deprecations since the previous releas
 ### Engine worker architecture change: one worker per pod
 
 {% hint style="warning" %}
-This is a breaking change for on-premises and self-hosted deployments. Your deployment will keep working, but its processing capacity will drop unless you increase your replica count.
+This is a breaking change for on-premises and self-hosted deployments only.&#x20;
 {% endhint %}
 
 Each Engine pod now runs one worker. To scale capacity, increase the number of Kubernetes replicas for the Engine deployment. This change is already live on the public cloud. On-premises and self-hosted deployments must update their configuration.

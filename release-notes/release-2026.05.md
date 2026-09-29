@@ -75,7 +75,43 @@ The following are the current version numbers for services. You can verify them 
 
 ## Public-facing changes
 
-This section includes app updates, fixes, and deprecations since the previous release.
+This section includes updates, fixes, and deprecations since the previous release.
+
+### Engine worker architecture change: one worker per pod
+
+{% hint style="warning" %}
+This is a breaking change for on-premises and self-hosted deployments. Your deployment will keep working, but its processing capacity will drop unless you increase your replica count.
+{% endhint %}
+
+Each Engine pod now runs one worker. To scale capacity, increase the number of Kubernetes replicas for the Engine deployment. This change is already live on the public cloud. On-premises and self-hosted deployments must update their configuration.
+
+#### **What's changing**
+
+Previously, an Engine pod could run several worker processes (Node.js processes) side by side. The `sizeOfWorkersPool` config parameter (Helm value `SIZE_OF_WORKER_POOL`, default `10`) controlled how many.
+
+Now, every pod runs one worker. The `sizeOfWorkersPool` parameter and `SIZE_OF_WORKER_POOL` value no longer have any effect.
+
+#### **Why it's changing**
+
+Scenarios running in the same pod shared memory. If one scenario ran the pod out of memory (OOM), Kubernetes killed the pod and every other scenario running in it, regardless of tenant.
+
+With one worker per pod, a misbehaving scenario affects only its own pod. Other scenarios keep running.
+
+#### **Impact if you don't act**
+
+Your deployment keeps running, but with less capacity. For example, if you ran 10 workers per pod across N pods, your capacity drops to one-tenth of what it was until you increase your replica count.
+
+#### **What you need to do**
+
+1. Remove `sizeOfWorkersPool` and `SIZE_OF_WORKER_POOL` from your config. If you leave the parameter at its old default, the worker logs a warning at boot until you resize your replica count.
+2. Set your replica count. To keep the same total capacity, multiply your previous workers per pod by your pod count. For example, if you ran 10 workers per pod across N pods, set `10 × N` replicas.
+3. Set memory requests and limits for a single worker. Each pod no longer shares memory across several workers, so base the values on one worker's footprint.
+   * **Request:** We recommend  `400Mi`, which is a stable baseline for most scenario executions. `200Mi` is likely enough as a minimum, but monitor for OOM kills before you rely on it.
+   * **Limit:** A limit is optional and depends on your available compute capacity. If you set one, we recommend staying at or below `8Gi` per pod. Large scenario executions (large scenarios or large payloads) can cause memory spikes at or above that size. The headroom you need depends on tenant behavior.
+
+#### **Rollback**
+
+You can't roll back to multi-worker pods. We removed `sizeOfWorkersPool` and `SIZE_OF_WORKER_POOL` from the codebase. To increase throughput, add replicas.
 
 ### Aircall
 

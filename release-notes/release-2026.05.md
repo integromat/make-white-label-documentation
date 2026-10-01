@@ -65,7 +65,7 @@ The following are the current version numbers for services. You can verify them 
 | overseer               | f56f1361696d120526e27863bf80152035338591 | Yes            |
 | renderer-processor     | cf620604b0b9fb0673999fce0e7a6692230a8c1f | Yes            |
 | roleman                | b359d7fb7722d528be6b3094108ddb68b8bbd952 | Yes            |
-| scheduler              | f528c3a-20260710                         | -              |
+| scheduler              | 823cde9-20260910                         | -              |
 | trackman               | 2.27.0                                   | -              |
 | trigger                | e016362fe8fc23f221d99b8c044aedd8a37e61d3 | Yes            |
 | web-api                | f1db70059a1dcaa33e5d7d4fae926b3948d4edaf | Yes            |

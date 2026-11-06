@@ -1,7 +1,5 @@
 # Release 2026.06
 
-## Release 2026.06
-
 This release note lists the current software and service versions for White Label instances of Make, plus app updates and deprecations since the previous release.
 
 ### Current software version numbers

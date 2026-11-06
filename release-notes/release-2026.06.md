@@ -81,7 +81,7 @@ This section includes updates, fixes, and deprecations since the previous releas
 
 Due to OpenAI's decision to deprecate its entire Videos API and Sora models, all video-related modules in the OpenAI app are deprecated.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Action required by September 24, 2026. After this date, scenarios using the deprecated video modules stop running. You can no longer create new scenarios using these modules.&#x20;
 {% endhint %}
 
@@ -118,7 +118,7 @@ To avoid disruption, you must update your scenarios before September 24, 2026. M
 
 In line with OpenAI's plan to improve reliability and simplify model selection, Make is retiring several legacy models. These models are now hidden from the selection menus in the OpenAI app to prevent their use in new scenarios.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Action required by September 28, 2026. After this date, scenarios using the deprecated models stop running. You can no longer create new scenarios or update existing modules to use these models.
 {% endhint %}
 
@@ -163,7 +163,7 @@ To ensure your scenarios continue to run, check your Microsoft Dynamics 365 Busi
 
 1. In your scenarios, locate your Microsoft Dynamics 365 Business Central modules and click to edit the connection.
 2. In the connection settings, check the Endpoint field.
-3. If the field is set to /api/v1.0/, you must update it to /api/v2.0/.
+3. If the field is set to `/api/v1.0/`, you must update it to `/api/v2.0/`.
 
 #### Resources
 

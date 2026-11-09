@@ -41,10 +41,9 @@ The following are the current version numbers for services. You can verify them 
 | Service                | Version                                  | Version update |
 | ---------------------- | ---------------------------------------- | -------------- |
 | accman                 | 0c4fb875dfecf32ef507b4f67b89e172d61996f7 | Yes            |
-| agency                 | 4.0-beta                                 | -              |
-| aws-rds-log-reader     | v1.1.1                                   | -              |
-| broker                 | 3e6a295ce542ef03a2d8f954ee2ad534e3c0f71e | Yes            |
-| broker-gw-logger       | 3e6a295ce542ef03a2d8f954ee2ad534e3c0f71e | Yes            |
+| agency                 | 23f3d441567d0ab32070654f33daa7d28edc66e6 | -              |
+| broker                 | cd1ca94-20261104                         | Yes            |
+| broker-gw-logger       | cd1ca94-20261104                         | Yes            |
 | cron                   | v1.1.10                                  | Yes            |
 | datadog-agent          | 7.84.2                                   | Yes            |
 | datadog-cluster-agent  | 7.84.2                                   | Yes            |
@@ -59,19 +58,18 @@ The following are the current version numbers for services. You can verify them 
 | kibana                 | 8.19.13                                  | -              |
 | lickman                | cab5525021496ff5b2c7d18c3533cfc66ea40730 | Yes            |
 | make-apps-processor    | 1.11.1                                   | Yes            |
-| mongo-auto-indexer     | master                                   | -              |
 | nginx                  | v1.28.0                                  | -              |
 | notification-processor | 4cd0ef8514a8511d8660d983af45ac992e4d74a7 | Yes            |
 | overseer               | a6ad20da68a2d9a39b8928f85a74e7d2c57089c2 | Yes            |
-| renderer-processor     | 7bc2ccd91a103bf5f1a75bcc13d5bfe137c40fff | Yes            |
+| renderer-processor     | 1f7e97d6321fbfa4dfb36196b3bba382fdd2ea22 | Yes            |
 | roleman                | 4c4121bc24f3c308231d752fd4a7e5410b28d2e5 | Yes            |
 | scheduler              | cd1ca94-20261104                         | Yes            |
 | trackman               | 2.28.1                                   | Yes            |
 | trigger                | 209bca7b7560deb42c402dd81af2a88b4a0157f3 | Yes            |
 | web-api                | 27cd1dfdacc649b5128f3d527dd415cf8ad6a6c6 | Yes            |
 | web-streamer           | 4a2b37f533462a7a3d43fd807e3365df3a156744 | Yes            |
-| web-zone               | a9add370ae5624b4594e5819c1af9163792586d3 | Yes            |
-| zone-assets-server     | a9add370ae5624b4594e5819c1af9163792586d3 | Yes            |
+| web-zone               | 2026.06                                  | Yes            |
+| zone-assets-server     | 2026.06                                  | Yes            |
 
 ### Public-facing changes
 

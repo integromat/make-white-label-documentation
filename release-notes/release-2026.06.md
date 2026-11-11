@@ -66,7 +66,7 @@ The following are the current version numbers for services. You can verify them 
 | scheduler              | cd1ca94-20261104                         | Yes            |
 | trackman               | 2.28.1                                   | Yes            |
 | trigger                | 209bca7b7560deb42c402dd81af2a88b4a0157f3 | Yes            |
-| web-api                | 27cd1dfdacc649b5128f3d527dd415cf8ad6a6c6 | Yes            |
+| web-api                | hot-fix-2026-06-v3                       | Yes            |
 | web-streamer           | 4a2b37f533462a7a3d43fd807e3365df3a156744 | Yes            |
 | web-zone               | 2026.06                                  | Yes            |
 | zone-assets-server     | 2026.06                                  | Yes            |

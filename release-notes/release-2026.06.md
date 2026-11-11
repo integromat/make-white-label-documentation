@@ -228,7 +228,7 @@ To update a module, select a supported alternative, such as Nano Banana 2, from 
 
 #### Gemini 4 Argon model support
 
-The Gemini 4 Argon model is now available in the Simple text prompt, Generate a response, and Extract structured data modules.
+The Gemini 4 Argon model is now available in the Generate a response and Extract structured data modules.
 
 Gemini 4 Argon is Google's flagship reasoning model for complex tasks, such as advanced software engineering, scientific problem-solving, and building multi-step autonomous agents. It processes text, image, video, audio, and PDF inputs. The model requires a connection configured with a paid-tier Google API key. A free-tier key results in an error.
 
@@ -332,9 +332,9 @@ If your scenarios use filters, formulas, or functions that treat these IDs as nu
 
 ### Anthropic Claude
 
-* Claude Opus 5.5 is now supported in the Create a Prompt and Simple Text Prompt modules.
-* Claude Sonnet 5.5 is now supported for users on paid plans in the Make AI Toolkit and Anthropic Claude apps. It supports a context window of up to 1,000,000 tokens and text output of up to 128,000 tokens. In Simple Text Prompt (via Amazon Bedrock) and Create a Prompt, select it from the Model dropdown. The Create a Prompt module also has a new diagnostics output parameter, a new Turn Off Up-Front Thinking option, and no longer fails when you use the Computer Use Tool with this model. Tool choice is limited to the Auto setting for Sonnet 5.5.
-* Claude Haiku 5.5 is now available in the Create a Prompt module and in the Make AI Toolkit and Anthropic Claude apps. It's the cheapest Claude model, built for high-volume tasks such as classification, routing, extraction, and subagent tasks. On the Free plan, scenarios using a premium model, such as Opus, now run with Claude Haiku 5.5 as the fallback.
+* Claude Opus 5.5 is now supported in the Create a Prompt module.
+* Claude Sonnet 5.5 is now supported for users on paid plans in the Anthropic Claude app. It supports a context window of up to 1,000,000 tokens and text output of up to 128,000 tokens. In Create a Prompt, select it from the Model dropdown. The Create a Prompt module also has a new diagnostics output parameter, a new Turn Off Up-Front Thinking option, and no longer fails when you use the Computer Use Tool with this model. Tool choice is limited to the Auto setting for Sonnet 5.5.
+* Claude Haiku 5.5 is now available in the Create a Prompt module and Anthropic Claude app. It's the cheapest Claude model, built for high-volume tasks such as classification, routing, extraction, and subagent tasks. On the Free plan, scenarios using a premium model, such as Opus, now run with Claude Haiku 5.5 as the fallback.
 * The claude-sonnet-4-5-20250929 model is now marked as (deprecated) in the Create a Prompt module. Anthropic retires this model on November 30, 2026. Existing scenarios continue to run until then. For new scenarios, use a newer model, such as Claude Sonnet 5.5.
 
 For more information, see [Anthropic Claude documentation](https://apps.make.com/anthropic-claude).
@@ -343,9 +343,9 @@ For more information, see [Anthropic Claude documentation](https://apps.make.com
 
 ### OpenAI
 
-* GPT-6 Sol and Luna are now available in the Make AI Toolkit and OpenAI (ChatGPT, Whisper) apps. GPT-6 Sol is for complex, multi-step work. GPT-6 Luna is for high-volume intake, such as categorizing and routing support requests.
+* GPT-6 Sol and Luna are now available in the OpenAI (ChatGPT, Whisper) app. GPT-6 Sol is for complex, multi-step work. GPT-6 Luna is for high-volume intake, such as categorizing and routing support requests.
 * GPT Image 2.5 Sunburst and Flare are now available in the Generate Images and Edit Images modules of the OpenAI (ChatGPT, Whisper) app. Flare is for fast, routine edits. Sunburst is for precise, detailed edits when quality matters more than speed.
-* The Create a Prompt module now includes the GPT-6.1 Sol model in the model dropdown. GPT-6.1 Sol is designed for complex tasks and is available only on paid Make plans. It's available in the Make AI Toolkit and OpenAI (ChatGPT, Whisper) apps, and supports Functions, Web search, File search, and Computer use. Multi-agent support is in beta.
+* The Create a Prompt module now includes the GPT-6.1 Sol model in the model dropdown. GPT-6.1 Sol is designed for complex tasks and is available only on paid Make plans. It's available in the OpenAI (ChatGPT, Whisper) app, and supports Functions, Web search, File search, and Computer use. Multi-agent support is in beta.
 
 For more information, see [OpenAI](https://apps.make.com/openai-modules) documentation.
 

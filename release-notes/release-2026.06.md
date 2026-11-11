@@ -2,7 +2,7 @@
 
 This release note lists the current software and service versions for White Label instances of Make, plus app updates and deprecations since the previous release.
 
-### Current software version numbers
+## Current software version numbers
 
 The following is a list of current software versions running in Make's release environment.
 
@@ -71,7 +71,7 @@ The following are the current version numbers for services. You can verify them 
 | web-zone               | 2026.06                                  | Yes            |
 | zone-assets-server     | 2026.06                                  | Yes            |
 
-### Public-facing changes
+## Public-facing changes
 
 This section includes updates, fixes, and deprecations since the previous release.
 
